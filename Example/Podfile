@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JimApi_Example' do
+  pod 'JimApi', :path => '../'
+
+  target 'JimApi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

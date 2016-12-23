@@ -1,0 +1,6 @@
+framework module Pods_JimApi_Tests {
+  umbrella header "Pods-JimApi_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

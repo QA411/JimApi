@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - JimApi (0.1.0):
+    - JimApi/Caches (= 0.1.0)
+    - JimApi/Core (= 0.1.0)
+    - JimApi/HUD (= 0.1.0)
+    - JimApi/Plugins (= 0.1.0)
+    - JimApi/Refresh (= 0.1.0)
+    - JimApi/Security (= 0.1.0)
+    - JimApi/Validator (= 0.1.0)
+  - JimApi/Caches (0.1.0)
+  - JimApi/Core (0.1.0):
+    - AFNetworking
+    - JSONModel
+  - JimApi/HUD (0.1.0):
+    - MBProgressHUD
+  - JimApi/Plugins (0.1.0)
+  - JimApi/Refresh (0.1.0):
+    - MJRefresh
+  - JimApi/Security (0.1.0)
+  - JimApi/Validator (0.1.0)
+  - JSONModel (1.7.0)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+
+DEPENDENCIES:
+  - JimApi (from `../`)
+
+EXTERNAL SOURCES:
+  JimApi:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  JimApi: 4a8a11498a791cd4f44982d4c967ddcc27f694bd
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+
+PODFILE CHECKSUM: caa81bca490a7ddec8fd004b561526cff87ecaa5
+
+COCOAPODS: 1.1.1
