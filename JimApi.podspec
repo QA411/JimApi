@@ -8,16 +8,16 @@
 
 Pod::Spec.new do |s|
 s.name             = 'JimApi'
-s.version          = '0.1.0'
-s.summary          = '云南智慧生活-Jim-APITestVerson'
+s.version          = '1.0.0'
+s.summary          = '云南智慧生活-JimFang'
 
 
 s.homepage     = "https://github.com/QA411"
 s.license      = "Apache License, Version 1.0.0"
-s.author       = "云南智慧生活-Jim"
-s.platform     = :ios, "7.0"
+s.author           = { 'JimFang' => 'fangxian@gznb.com' }
+s.platform     = :ios, "8.0"
 s.requires_arc = true
-s.source       = {:git => 'https://github.com/QA411/JimAPIKit.git', :tag => "v#{s.version}" }
+s.source       = {:git => 'https://github.com/QA411/JimApi.git', :tag => "v#{s.version}" }
 
 s.frameworks  = "UIKit","Foundation"
 s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>'
